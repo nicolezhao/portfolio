@@ -1,0 +1,32 @@
+html {
+	font-family: 'Comic Sans';
+}
+
+i#fill{
+	color:#00C385;
+}
+
+table td {
+	padding-bottom: 5px;
+	padding-right: 15px;
+	border: 10px;
+}
+
+
+h1#test{ 
+	color: white;
+	font-size: 70px;
+    position: absolute; 
+    top: 300px; 
+    left: 0; 
+    width: 100%; 
+}
+
+p#test{ 
+	color: white;
+	font-size: 0px;
+    position: absolute; 
+    top: 400px; 
+    left: 0; 
+    width: 100%; 
+}
