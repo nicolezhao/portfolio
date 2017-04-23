@@ -23,10 +23,10 @@ $(function() {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
          }        
 	 $.ajax({
-                url: "contact/contact_me.php",
+              url: "contact/contact_me.php",
             	type: "POST",
             	data: {name: name, email: email, message: message},
-            	cache: false,
+            	cache: true,
             	success: function() {  
             	// Success message
             	   $('#success').html("<div class='alert alert-success'>");
