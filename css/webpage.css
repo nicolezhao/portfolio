@@ -31,6 +31,10 @@ p#test{
     width: 100%; 
 }
 
+h3.viryl{
+	color: white;
+}
+
 header, .full-width {
   width: 100%;
   background: #ccc;
