@@ -39,6 +39,16 @@ header, .full-width {
   width: 100%;
   background: #ccc;
 }
+
+#business-card{
+  padding: 0px 30px 30px 30px;
+}
+
+.container{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 .wrap {
   width: 80%;
   max-width: 24em;
