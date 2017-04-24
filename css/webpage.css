@@ -12,6 +12,32 @@ table td {
 	border: 10px;
 }
 
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+#viryl-header{
+  width:100%;
+}
+
+#viryl-title { 
+   position: absolute; 
+   top: 232px; 
+   left: 0; 
+   width: 100%; 
+}
+
+#viryl-titles{
+  color:black;
+}
+
+.viryl-content{
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
 #topnav{
    margin-top: 0px;
   padding-top: 0px;
@@ -42,6 +68,9 @@ h3.viryl{
 header, .full-width {
   width: 100%;
   background: #ccc;
+}
+.viryl-header{
+  width:100%;
 }
 
 #business-card{
