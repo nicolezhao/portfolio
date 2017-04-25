@@ -16,6 +16,35 @@ table td {
    position: relative; 
    width: 100%; /* for IE 6 */
 }
+
+.toolbox{
+  /* Once it gets to a certain width, hide this div */
+  text-align: center;
+}
+
+#toolbox-table{
+  text-align:center;
+  margin: 0 auto;
+
+}
+
+#resume-button{
+  transition: background-color 0.3s ease;
+  background-color: rgba(0, 195, 133, 0.6);
+  border-radius: 25px;
+  color: white;
+  width: 130px;
+}
+
+#resume-button:hover{
+  background-color: rgba(0, 195, 133, 0.9);
+}
+
+.logo{
+  width: 60px;
+  margin: 20px 20px 0 20px;
+}
+
 #viryl-header{
   width:100%;
 }
@@ -26,9 +55,28 @@ table td {
    left: 0; 
    width: 100%; 
 }
+#viryl-img{
+  width: 100%;
+  overflow: auto;
+}
 
-#viryl-titles{
-  color:black;
+#portrait{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/*#about{
+  padding-bottom: 0px
+}
+#portfolio{
+  padding-top: 100px;
+}*/
+
+h2#viryl-titles{
+  color:#00C385;
+}
+h3#viryl-titles{
+  color:gray;
 }
 
 .viryl-content{
