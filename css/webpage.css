@@ -45,6 +45,26 @@ table td {
   margin: 20px 20px 0 20px;
 }
 
+.inv-img-even{
+  width:26%;
+  float:left;
+}
+
+.inv-text-even{
+  width:66%;
+  float:right;
+}
+
+.inv-img-odd{
+  width:26%;
+  float:right;
+}
+
+.inv-text-odd{
+  width:66%;
+  float:left;
+}
+
 #viryl-header{
   width:100%;
 }
