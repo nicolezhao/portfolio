@@ -46,23 +46,31 @@ table td {
 }
 
 .inv-img-even{
-  width:26%;
+  width:20%;
   float:left;
+  /*margin-bottom: 80px;*/
 }
 
 .inv-text-even{
-  width:66%;
+  width:70%;
   float:right;
+  /*margin-bottom: 80px;*/
 }
 
 .inv-img-odd{
-  width:26%;
+  width:20%;
   float:right;
+  /* margin-bottom: 80px;*/
 }
 
 .inv-text-odd{
-  width:66%;
+  width:70%;
   float:left;
+  /*margin-bottom: 80px;*/
+}
+
+.involvements{
+  width: 100%;
 }
 
 #viryl-header{
@@ -83,6 +91,14 @@ table td {
 #portrait{
   margin: 0 auto;
   max-width: 600px;
+}
+
+#inv-container{
+  margin-bottom: 60px;
+}
+
+#inv-circle{
+  border-radius: 50%;
 }
 
 /*#about{
