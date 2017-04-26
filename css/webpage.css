@@ -22,7 +22,7 @@ table td {
   text-align: center;
 }
 
-.lightbox{
+.lightbox-hidden{
   display: none;
 }
 
