@@ -22,6 +22,10 @@ table td {
   text-align: center;
 }
 
+.lightbox{
+  display: none;
+}
+
 #toolbox-table{
   text-align:center;
   margin: 0 auto;
@@ -256,3 +260,5 @@ header, .full-width {
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
 }
+
+
