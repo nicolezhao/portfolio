@@ -123,6 +123,10 @@ img#fl3{
   margin: 0 auto;
 }
 
+.lightbox-imgs{
+  border: 1px solid gray;
+  display: inline-block;
+}
 
 /*************************************************/
 
