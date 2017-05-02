@@ -48,6 +48,12 @@ table td {
 
 }
 
+#railsafe_video{
+  width: 400px;
+  height: 235px;
+  background-color: black;
+}
+
 #resume-button{
   transition: background-color 0.3s ease;
   background-color: rgba(0, 195, 133, 0.9);
