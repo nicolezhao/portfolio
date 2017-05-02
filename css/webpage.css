@@ -34,14 +34,14 @@ table td {
 
 #resume-button{
   transition: background-color 0.3s ease;
-  background-color: rgba(0, 195, 133, 0.6);
+  background-color: rgba(0, 195, 133, 0.9);
   border-radius: 25px;
   color: white;
   width: 130px;
 }
 
 #resume-button:hover{
-  background-color: rgba(0, 195, 133, 0.9);
+  background-color: rgba(0, 195, 133, 0.6);
 }
 
 .logo{
