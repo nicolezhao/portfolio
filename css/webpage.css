@@ -26,6 +26,22 @@ table td {
   display: none;
 }
 
+#wao_pic{
+  width: 70%;
+}
+
+#wao_gif{
+  width: 23%;
+}
+
+#notes_ui{
+  width: 50%;
+}
+
+#notes_key{
+  width: 30%;
+}
+
 #toolbox-table{
   text-align:center;
   margin: 0 auto;
