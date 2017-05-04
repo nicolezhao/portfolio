@@ -26,6 +26,16 @@ table td {
   display: none;
 }
 
+.scroll {
+    height: 600px; /* or any value */
+    overflow-y: auto;
+    margin-bottom: 50px;
+}
+
+.section-viryl{
+  margin-top:50px;
+}
+
 #wao_pic{
   width: 70%;
 }
