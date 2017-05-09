@@ -76,6 +76,10 @@ table td {
   background-color: rgba(0, 195, 133, 0.6);
 }
 
+#position{
+  font-size: 16px;
+}
+
 .logo{
   width: 60px;
   margin: 20px 20px 0 20px;
@@ -138,11 +142,29 @@ table td {
 }
 
 #about{
-  padding-bottom: 0px
+  padding-bottom: 100px;
+  padding-top: 0px;
 }
 #portfolio{
   padding-top: 100px;
 }
+
+#work-experience{
+  padding-top: 100px;
+}
+p#about-p{
+  text-align: left;
+}
+
+.overlay:hover {
+ cursor:pointer;
+}
+
+#viryl-banner{
+  width: 100%;
+  padding-bottom: 70px;
+}
+
 
 /********  Lightbox picture formatting   **********/
 
