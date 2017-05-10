@@ -165,6 +165,11 @@ p#about-p{
   padding-bottom: 70px;
 }
 
+#trophy-icon{
+  font-size: 25px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
 
 /********  Lightbox picture formatting   **********/
 
