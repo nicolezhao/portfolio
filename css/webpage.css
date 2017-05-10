@@ -171,6 +171,9 @@ p#about-p{
   padding: 0px 0px 0px 0px;
 }
 
+#hover-motion:hover{
+  margin-top:-5px;
+}
 /********  Lightbox picture formatting   **********/
 
 img#fl3-notes{
