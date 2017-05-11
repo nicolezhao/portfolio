@@ -1,15 +1,15 @@
 html {
-	font-family: 'Comic Sans';
+  font-family: 'Comic Sans';
 }
 
 i#fill{
-	color:#00C385;
+  color:#00C385;
 }
 
 table td {
-	padding-bottom: 5px;
-	padding-right: 15px;
-	border: 10px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  border: 10px;
 }
 
 .image { 
@@ -211,18 +211,18 @@ h3#viryl-titles{
   padding-top: 0px;
 }
 
-h1#test{ 
-	color: white;
-	font-size: 70px;
+h1#header-text{ 
+  color: white;
+  font-size: 70px;
     position: absolute; 
     top: 300px; 
     left: 0; 
     width: 100%; 
 }
 
-p#test{ 
-	color: white;
-	font-size: 0px;
+p#header-text{ 
+  color: white;
+  font-size: 0px;
     position: absolute; 
     top: 400px; 
     left: 0; 
@@ -230,7 +230,7 @@ p#test{
 }
 
 h3.viryl{
-	color: white;
+  color: white;
 }
 
 header, .full-width {
@@ -340,5 +340,45 @@ header, .full-width {
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
 }
+@media (max-width: 767px){
+  h3.viryl{
+      margin-top: -20px;
+      font-size: 3vw;
+    }
+}
 
+@media (max-width: 615px)
+{
+    h1#header-text{
+      font-size: 11vw;
+      margin-top: -100px;
+    }
+    p#header-text{
+      font-size: 5vw;
+      margin-top: -100px;
+    }
+    #title h2{
+      font-size: 11vw;
+    }
+    #weareone{
+      margin-bottom: 0px;
+    }
+    table#toolbox-table{
+      zoom: 80%;
+    }
+    img.logo{
+      zoom:80%;
+    }
+}
+@media (max-width: 583px){
+  i#trophy-icon{
+    display: none;
+  }
+  table#toolbox-table{
+      zoom: 70%;
+    }
+    img.logo{
+      zoom:70%;
+    }
 
+}
