@@ -76,6 +76,18 @@ table td {
   background-color: rgba(0, 195, 133, 0.6);
 }
 
+#railsafe-button{
+  transition: background-color 0.3s ease;
+  background-color: rgba(0, 195, 133, 0.9);
+  border-radius: 25px;
+  color: white;
+  width: 200px;
+}
+
+#railsafe-button:hover{
+  background-color: rgba(0, 195, 133, 0.6);
+}
+
 #position{
   font-size: 16px;
 }
@@ -173,6 +185,15 @@ p#about-p{
 
 #hover-motion:hover{
   margin-top:-5px;
+}
+#chatbot-hover:hover{
+  margin-top:-5px;
+  padding-bottom: 5px;
+}
+
+#viryl-hover:hover{
+  margin-top:-5px;
+  margin-bottom: 5px;
 }
 /********  Lightbox picture formatting   **********/
 
