@@ -1,5 +1,9 @@
-html {
-  font-family: 'Comic Sans';
+.sp-slide .main-slides{
+  z-index: -1;
+}
+
+#header-icons{
+  z-index: 2;
 }
 
 i#fill{
