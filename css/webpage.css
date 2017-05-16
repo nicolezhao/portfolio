@@ -189,6 +189,7 @@ p#about-p{
 
 #hover-motion:hover{
   margin-top:-5px;
+  padding-bottom: +5px;
 }
 #chatbot-hover:hover{
   margin-top:-5px;
@@ -199,6 +200,32 @@ p#about-p{
   margin-top:-5px;
   margin-bottom: 5px;
 }
+.fa-fw {
+  position: absolute;
+  left: -22px;
+}
+
+
+/*ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: table;
+}
+
+li {
+    list-style: none;
+    display: table-row;
+}
+
+li::before {
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em;
+}*/
+
 /********  Lightbox picture formatting   **********/
 
 img#fl3-notes{
