@@ -16,6 +16,10 @@ table td {
   border: 10px;
 }
 
+#fit{
+  width: 90%;
+}
+
 .image { 
    position: relative; 
    width: 100%; /* for IE 6 */
